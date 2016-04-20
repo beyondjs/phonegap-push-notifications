@@ -47,7 +47,7 @@ var app = {
             console.log(JSON.stringify(data));
 
             document.getElementById("copyToClipboard").addEventListener("click", function () {
-                cordova.plugins.clipboard.copy(JSON.stringify(data));
+                window.plugins.copy(text);
             });
         });
 

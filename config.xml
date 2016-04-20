@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
         id="com.xsites.test-push-notifications"
-        version="1.0.5">
+        version="1.0.6">
 
     <name><![CDATA[Push Notifications Test]]></name>
     <description>Testing Push Notifications.</description>
@@ -24,6 +24,8 @@
     <preference name="android-installLocation" value="auto"/>
     <gap:plugin name="org.apache.cordova.battery-status"/>
     <preference name="android-build-tool" value="gradle"/>
+    <gap:plugin name="clipboardmanager"
+                value="com.saatcioglu.phonegap.clipboardmanager.ClipboardManagerPlugin.ClipboardManagerPlugin"/>
     <plugin name="phonegap-plugin-push" source="npm">
         <param name="SENDER_ID" value="202902641188"/>
     </plugin>

@@ -47,19 +47,7 @@ var app = {
             console.log(JSON.stringify(data));
 
             document.getElementById("copyToClipboard").addEventListener("click", function () {
-                "use strict";
-
-                var copyTextarea = document.getElementById("regId");
-                copyTextarea.select();
-
-                try {
-                    var successful = document.execCommand('copy');
-                    var msg = successful ? 'successful' : 'unsuccessful';
-                    alert('Copying text command was ' + msg);
-                } catch (err) {
-                    alert('Oops, unable to copy');
-                }
-
+                cordova.plugins.clipboard.copy(JSON.stringify(data));
             });
         });
 

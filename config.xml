@@ -24,8 +24,7 @@
     <preference name="android-installLocation" value="auto"/>
     <gap:plugin name="org.apache.cordova.battery-status"/>
     <preference name="android-build-tool" value="gradle"/>
-    <gap:plugin name="clipboardmanager"
-                value="com.saatcioglu.phonegap.clipboardmanager.ClipboardManagerPlugin.ClipboardManagerPlugin"/>
+    <plugin name="com.verso.cordova.clipboard" spec="0.1.0" source="pgb" />
     <plugin name="phonegap-plugin-push" source="npm">
         <param name="SENDER_ID" value="202902641188"/>
     </plugin>

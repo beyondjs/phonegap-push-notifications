@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
         id="com.xsites.test-push-notifications"
-        version="1.0.2">
+        version="1.0.3">
 
     <name><![CDATA[Push Notifications Test]]></name>
     <description>Testing Push Notifications.</description>
